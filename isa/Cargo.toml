@@ -1,0 +1,11 @@
+[package]
+name = "z2l-isa"
+description = "Implementation of ratified RISC-V ISA modules"
+version.workspace = true
+edition.workspace = true
+repository.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+z2l-core = { path = "../core" }
